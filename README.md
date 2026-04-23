@@ -32,7 +32,7 @@ flowchart TD
     AI["Vertex AI Model Endpoint<br>Gemma 7B (Instruction Tuned)<br>Entity Extraction & Triage"]
     
     %% Storage
-    FS[(Firestore)<br>Incidents, Users, Locations]
+    FS[("(Firestore)<br>Incidents, Users, Locations")]
     
     %% Event Bus
     PS{Cloud Pub/Sub<br>Events Topic}
@@ -48,7 +48,7 @@ flowchart TD
     MAP[Google Maps Platform<br>Geocoding & Routing]
 
     %% Feedback & Analytics
-    BQ[(BigQuery<br>Long-term Analytics)]
+    BQ[("(BigQuery<br>Long-term Analytics)")]
 
     %% Connections
     W --> API
