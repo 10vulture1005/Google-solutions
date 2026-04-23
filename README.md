@@ -29,7 +29,7 @@ flowchart TD
     API[Cloud Functions / Cloud Run<br>Normalized Ingestion API]
     
     %% AI Processing
-    AI[Vertex AI Model Endpoint<br>Gemma 7B (Instruction Tuned)<br>Entity Extraction & Triage]
+    AI["Vertex AI Model Endpoint<br>Gemma 7B (Instruction Tuned)<br>Entity Extraction & Triage"]
     
     %% Storage
     FS[(Firestore)<br>Incidents, Users, Locations]
